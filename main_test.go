@@ -18,8 +18,8 @@ func TestHandlePonto(t *testing.T) {
 		{
 			name:     "1",
 			mPath:    "matriculas",
-			response: `{"result":true,"time":"0931","day":"2018-11-30","batidas_dia":["0928","0931"],"nome":"IVANHENRIQUESANDRINI","employee":{"_id":"5bd05fc65b681ba7dbd65ef3"},"only_location":false,"photo_on_punch":false,"activity_on_punch":false,"justification_permissions":{"read_write_attach":true,"add_absence":true,"add_punch":true},"face_id_on_punch":false}`,
-			expected: []string{"Ponto batido com SUCESSO. matrícula: 411", "Ponto batido com SUCESSO. matrícula: 412", "Ponto batido com SUCESSO. matrícula: 413"},
+			response: `{"result":true,"time":"0931","day":"2018-11-30","batidas_dia":["0928","0931"],"nome":"JOAOZINHO","employee":{"_id":"1928734XN198NX"},"only_location":false,"photo_on_punch":false,"activity_on_punch":false,"justification_permissions":{"read_write_attach":true,"add_absence":true,"add_punch":true},"face_id_on_punch":false}`,
+			expected: []string{"Ponto batido com SUCESSO. matrícula: 100", "Ponto batido com SUCESSO. matrícula: 101", "Ponto batido com SUCESSO. matrícula: 102"},
 			err:      nil,
 		},
 	}
